@@ -1,8 +1,8 @@
-resource "aws_s3_bucket" "terraform" {
-  bucket = "my-terraform-bucket"
+resource "aws_s3_bucket" "tjk" {
+  bucket = "my-tjk"
 
   tags = {
-    Name        = "terraformJKbucket"
+    Name        = "mytjkbucket"
     Environment = "Dev"
   }
 }
